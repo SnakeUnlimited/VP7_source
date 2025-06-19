@@ -1,0 +1,28 @@
+.grid-container {
+    gap: 4px;
+}
+
+.grid-row {
+    display: flex;
+    gap: 2px;
+    background-color: gainsboro;
+    margin-bottom: 2px; /* This ensures rows are stacked vertically */
+}
+
+.grid-col {
+    flex: 1;
+    gap: 2px;
+    background-color: gray;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  color: black;
+}
